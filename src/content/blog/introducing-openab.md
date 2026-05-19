@@ -2,6 +2,7 @@
 title: 'Introducing OpenAB: Your AI Coding Agent, Now in Your Team Chat'
 description: 'OpenAB is the chat-native runtime layer for ACP coding agents. An open-source broker that connects any ACP-compatible coding CLI to Discord, Slack, and other chat platforms.'
 pubDate: 'May 19 2026'
+heroImage: '../../assets/banner.jpg'
 ---
 
 *Your IDE is powerful. Your chat is where decisions happen. OpenAB connects the two.*
