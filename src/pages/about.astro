@@ -1,63 +1,49 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
+import AboutHeroImage from '../assets/About me.jpg';
 import Layout from '../layouts/BlogPost.astro';
 ---
 
 <Layout
-	title="About Me"
-	description="Lorem ipsum dolor sit amet"
-	pubDate={new Date('August 08 2021')}
+	title="About OpenAB"
+	description="OpenAB — Open Agent Broker — connects chat platforms with AI coding agents."
+	pubDate={new Date('May 19 2026')}
 	heroImage={AboutHeroImage}
 >
+	<h2>What is OpenAB?</h2>
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-		labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo
-		viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam
-		adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus
-		et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus
-		vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque
-		sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+		<strong>OpenAB — Open Agent Broker</strong> — is a lightweight, secure, cloud-native harness that connects chat platforms with AI coding agents. It provides native Discord and Slack integration, plus an extensible gateway for platforms like Telegram, LINE, Feishu/Lark, and Google Chat. OpenAB works with <a href="https://github.com/agentclientprotocol/agent-client-protocol">Agent Client Protocol (ACP)</a>-compatible coding CLIs, letting agents operate directly inside team chat threads.
 	</p>
 
+	<h2>Why We Built This</h2>
 	<p>
-		Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non
-		tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non
-		blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna
-		porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis
-		massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc.
-		Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis
-		bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra
-		massa massa ultricies mi.
+		We believe the next-generation development experience happens where teams already communicate. OpenAB turns chat threads into agent workspaces — when your team is debugging a prod incident at 2 AM in Slack, or reviewing a PR in Discord, AI agents join the thread directly to help. No context switching, no copy-pasting between tools.
 	</p>
 
-	<p>
-		Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl
-		suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet
-		nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae
-		turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem
-		dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat
-		semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus
-		vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum
-		facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam
-		vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla
-		urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
-	</p>
+	<h2>The Stack</h2>
+	<ul>
+		<li><strong>Written in Rust</strong> — performance, safety, and reliability</li>
+		<li><strong>Cloud-native</strong> — runs anywhere with Docker or Kubernetes</li>
+		<li><strong>ACP-compatible</strong> — follows the open Agent Client Protocol for interoperability</li>
+		<li><strong>Multi-agent ready</strong> — designed for coordinated multi-agent workflows</li>
+	</ul>
 
+	<h2>Supported Agents</h2>
 	<p>
-		Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper
-		viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc
-		scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur
-		gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus
-		pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim
-		blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id
-		cursus metus aliquam eleifend mi.
+		OpenAB works with a growing ecosystem of ACP-compatible coding CLIs, including:
 	</p>
+	<ul>
+		<li>Kiro CLI, Claude Code, Codex, Gemini, OpenCode, Copilot CLI, Hermes Agent, Cursor, Grok Build</li>
+	</ul>
+	<p>More integrations are always in progress. Any ACP-compatible CLI can be connected to OpenAB.</p>
 
+	<h2>Open Source</h2>
 	<p>
-		Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta
-		nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam
-		tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci
-		ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar
-		proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+		OpenAB is free and open-source under the MIT license. We welcome contributions of all kinds: code, documentation, bug reports, and ideas.
 	</p>
+	<ul>
+		<li><strong>GitHub:</strong> <a href="https://github.com/openabdev/openab">github.com/openabdev/openab</a></li>
+		<li><strong>Discord:</strong> <a href="https://discord.gg/DmbhfDZjQS">Join our community</a></li>
+		<li><strong>Threads:</strong> <a href="https://www.threads.com/@openabdev">@openabdev</a></li>
+		<li><strong>X:</strong> <a href="https://x.com/openabdev">@openabdev</a></li>
+	</ul>
 </Layout>
